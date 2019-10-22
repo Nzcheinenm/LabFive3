@@ -11,6 +11,11 @@ public class Main {
             .setPrice(10000)
             .setSafety(1);
 
+    Transport car = new Transport();
+    car
+            .setCountGear(4)
+            .setSpeed(80);
+
 
     }
 }

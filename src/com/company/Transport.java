@@ -1,6 +1,6 @@
 package com.company;
 
-public class Transport<T>  {
+public class Transport<T extends Transport>  {
     private int speed;
     private int countGear;
 
